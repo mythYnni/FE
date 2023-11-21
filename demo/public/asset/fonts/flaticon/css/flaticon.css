@@ -1,0 +1,223 @@
+/*
+Flaticon icon font: Flaticon
+Creation date: 16/04/2020 22:55
+*/
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.eot");
+    src: url("../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Flaticon.woff2") format("woff2"),
+        url("../fonts/Flaticon.woff") format("woff"),
+        url("../fonts/Flaticon.ttf") format("truetype"),
+        url("../fonts/Flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "Flaticon";
+        src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+    }
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-style: normal;
+}
+
+.flaticon-lawyer:before {
+    content: "\f100";
+}
+
+.flaticon-law-book:before {
+    content: "\f101";
+}
+
+.flaticon-law:before {
+    content: "\f102";
+}
+
+.flaticon-law-book-1:before {
+    content: "\f103";
+}
+
+.flaticon-footprint:before {
+    content: "\f104";
+}
+
+.flaticon-law-1:before {
+    content: "\f105";
+}
+
+.flaticon-thief:before {
+    content: "\f106";
+}
+
+.flaticon-judge:before {
+    content: "\f107";
+}
+
+.flaticon-judge-1:before {
+    content: "\f108";
+}
+
+.flaticon-fingerprint:before {
+    content: "\f109";
+}
+
+.flaticon-detective:before {
+    content: "\f10a";
+}
+
+.flaticon-handcuffs:before {
+    content: "\f10b";
+}
+
+.flaticon-criminal-database:before {
+    content: "\f10c";
+}
+
+.flaticon-cctv:before {
+    content: "\f10d";
+}
+
+.flaticon-jury:before {
+    content: "\f10e";
+}
+
+.flaticon-policeman:before {
+    content: "\f10f";
+}
+
+.flaticon-witness:before {
+    content: "\f110";
+}
+
+.flaticon-police-car:before {
+    content: "\f111";
+}
+
+.flaticon-badge:before {
+    content: "\f112";
+}
+
+.flaticon-prisoner:before {
+    content: "\f113";
+}
+
+.flaticon-policeman-1:before {
+    content: "\f114";
+}
+
+.flaticon-pistol:before {
+    content: "\f115";
+}
+
+.flaticon-police:before {
+    content: "\f116";
+}
+
+.flaticon-policeman-2:before {
+    content: "\f117";
+}
+
+.flaticon-nightstick:before {
+    content: "\f118";
+}
+
+.flaticon-young-man-and-old-woman:before {
+    content: "\f119";
+}
+
+.flaticon-credit-card:before {
+    content: "\f11a";
+}
+
+.flaticon-banking:before {
+    content: "\f11b";
+}
+
+.flaticon-money-bag:before {
+    content: "\f11c";
+}
+
+.flaticon-money:before {
+    content: "\f11d";
+}
+
+.flaticon-bitcoin:before {
+    content: "\f11e";
+}
+
+.flaticon-fire:before {
+    content: "\f11f";
+}
+
+.flaticon-shopping-cart:before {
+    content: "\f120";
+}
+
+.flaticon-dollar:before {
+    content: "\f121";
+}
+
+.flaticon-quotation:before {
+    content: "\f122";
+}
+
+.flaticon-left-quote:before {
+    content: "\f123";
+}
+
+.flaticon-right-quote:before {
+    content: "\f124";
+}
+
+.flaticon-discount:before {
+    content: "\f125";
+}
+
+.flaticon-calendar:before {
+    content: "\f126";
+}
+
+.flaticon-calendar-1:before {
+    content: "\f127";
+}
+
+.flaticon-courthouse:before {
+    content: "\f128";
+}
+
+.flaticon-sheriff:before {
+    content: "\f129";
+}
+
+.flaticon-marijuana:before {
+    content: "\f12a";
+}
+
+.flaticon-null:before {
+    content: "\f12b";
+}
+
+.flaticon-cap:before {
+    content: "\f12c";
+}
+
+.flaticon-student:before {
+    content: "\f12d";
+}
+
+.flaticon-bookmark:before {
+    content: "\f12e";
+}
+
+.flaticon-judge-2:before {
+    content: "\f12f";
+}

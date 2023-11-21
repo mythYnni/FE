@@ -1,0 +1,313 @@
+/*
+::
+:: Theme Name: Rule - Lawyer & Attorney HTML Template
+:: Email: Nourramadan144@gmail.com
+:: Author URI: https://themeforest.net/user/ar-coder
+:: Author: ar-coder
+:: Version: 1.0
+::
+*/
+
+/* :: Medium devices */
+@media (max-width: 991px) {
+
+    /* :: Navbar */
+    .nav-bar .brand,
+    .nav-bar .collapse-nav-bar {
+        float: none;
+        display: block;
+    }
+
+    .nav-bar .nav-bar-menu {
+        display: block;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        right: 0;
+        border: 1px solid #FFF;
+        padding: 6px 10px;
+    }
+
+    .nav-bar .nav-bar-menu span {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background-color: #FFF;
+    }
+
+    .nav-bar .nav-bar-menu span:nth-of-type(2) {
+        margin: 5px 0;
+    }
+
+    .nav-bar .nav-bar-menu:hover {
+        border-color: #D5AA6D;
+    }
+
+    .nav-bar .nav-bar-menu:hover span {
+        background-color: #D5AA6D;
+    }
+
+    .header-bar.active .nav-bar .nav-bar-menu {
+        border-color: #343434;
+    }
+
+    .header-bar.active .nav-bar .nav-bar-menu span {
+        background-color: #343434;
+    }
+
+    .header-bar.active .nav-bar .nav-bar-menu:hover {
+        border-color: #D5AA6D;
+    }
+
+    .header-bar.active .nav-bar .nav-bar-menu:hover span {
+        background-color: #D5AA6D;
+    }
+
+    .nav-bar .collapse-nav-bar {
+        display: none;
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+
+    .nav-bar .collapse-nav-bar.active {
+        display: block;
+    }
+
+    .nav-bar .collapse-nav-bar ul {
+        background-color: #343434;
+    }
+
+    .nav-bar .collapse-nav-bar>ul>li>a.bg-active:before {
+        width: 50px;
+    }
+
+    .header-bar.active .nav-bar .collapse-nav-bar ul li a {
+        color: #CCC;
+    }
+
+    .nav-bar .collapse-nav-bar .level-2 li a {
+        margin-left: 40px;
+    }
+
+    .nav-bar .collapse-nav-bar .level-3 li a {
+        margin-left: 60px;
+    }
+
+    .nav-bar .collapse-nav-bar .level-4 li a {
+        margin-left: 80px;
+    }
+
+    .nav-bar .collapse-nav-bar>ul>li {
+        display: block;
+    }
+
+    .nav-bar .collapse-nav-bar ul li a {
+        color: #CCC;
+        font-weight: 400;
+        padding: 15px 0 15px 0;
+        margin: 0 15px;
+        border-bottom: 1px solid #444;
+    }
+
+    .nav-bar .collapse-nav-bar ul li:last-of-type a {
+        border-bottom: 0;
+    }
+
+    .nav-bar .collapse-nav-bar ul.level-1>li.has-menu>a:after {
+        display: block;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .nav-bar .collapse-nav-bar>ul>li:hover>a:before,
+    .nav-bar .collapse-nav-bar>ul>li>a.bg-active:before {
+        width: 45px;
+    }
+
+    .nav-bar .collapse-nav-bar>ul ul {
+        position: unset;
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .nav-bar .collapse-nav-bar>ul ul,
+    .nav-bar .collapse-nav-bar>ul li:hover>ul {
+        -webkit-transform: unset;
+        -ms-transform: unset;
+        transform: unset;
+        opacity: unset;
+        visibility: unset;
+    }
+
+    .nav-bar .collapse-nav-bar>ul ul li:last-of-type a {
+        border-bottom: 1px solid #444;
+    }
+
+    .nav-bar .collapse-nav-bar ul li a.active:after {
+        -webkit-transform: translateY(-50%) rotate(90deg);
+        -ms-transform: translateY(-50%) rotate(90deg);
+        transform: translateY(-50%) rotate(90deg);
+    }
+
+    .nav-bar .collapse-nav-bar>ul ul.active {
+        max-height: -webkit-max-content;
+        max-height: -moz-max-content;
+        max-height: max-content;
+        overflow: auto;
+    }
+
+    /* :: About Us */
+    .about .text-box {
+        margin-bottom: 50px;
+    }
+
+    .about .text-box .core-about-us li h4 {
+        font-size: 14px;
+    }
+
+    /* :: Performance And Quote */
+    .quote,
+    .subscribe {
+        margin-top: 50px;
+    }
+
+    /* :: Footer */
+    .footer .logo,
+    .footer .links {
+        margin-bottom: 30px;
+    }
+
+    /* :: About Home 2 & 3 */
+    .about-home-3 .faqs,
+    .about-home-3 .text-box {
+        margin: 0 0 50px 0;
+    }
+
+    /* :: FAQs */
+    .faqs {
+        margin-top: 50px;
+    }
+
+    .faq .faqs.one {
+        margin-top: 0;
+    }
+
+    /* :: Single Blog */
+    .blog.area .add-comments .inner-add-comments-box .btn-1 {
+        margin-bottom: 50px;
+    }
+
+}
+
+/* :: Small devices */
+@media (max-width: 768px) {
+
+    /* :: Header */
+    .header .banner .handline {
+        font-size: 31px;
+    }
+
+    /* :: Footer */
+    .footer .working-hours {
+        margin-bottom: 30px;
+    }
+
+    /* :: About Home 2 & 3 */
+    .about-home-2 .img-box img {
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+/* :: Extra small devices */
+@media (max-width: 575px) {
+    .header-index .box-index-header .buttons a:first-of-type {
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    /* :: Top Bar */
+    .top-bar .right-top-bar {
+        display: none;
+    }
+
+    .top-bar .left-top-bar li a {
+        padding: 15px 8px;
+    }
+
+    /* :: Header */
+    .header .case-study {
+        display: none;
+    }
+
+    /* :: Features */
+    .features .features-box.owl-theme .owl-nav {
+        display: none;
+    }
+
+    /* :: About Us */
+    .about .text-box .core-about-us li {
+        float: none;
+        width: auto;
+    }
+
+    /* :: Contact */
+    .contact .buttons a:first-of-type {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    /* :: 404 Error Page */
+    .page-404-area h2 {
+        font-size: 180px;
+    }
+
+    .sPrice {
+        color: black;
+        background: antiquewhite;
+        padding: 10px;
+        border: 2px solid #f4d2a3;
+        margin-bottom: 10px;
+    }
+
+    .sPrice h4 {
+        font-size: 20px;
+    }
+
+    .sPrice h5 {
+        font-size: 12px;
+    }
+
+    .sPrice h5 span {
+        float: right;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .features .features-box .item-features .text-item h4 {
+        font-size: 15px;
+    }
+}
+
+
+.sPrice {
+    color: black;
+    background: antiquewhite;
+    padding: 10px;
+    border: 2px solid #f4d2a3;
+    margin-bottom: 10px;
+}
+
+.sPrice h4 {
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.sPrice h5 span {
+    float: right;
+    font-weight: 600;
+}
